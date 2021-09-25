@@ -1,7 +1,7 @@
 <br>
 
 <p align="center">
-<a href="https://github.com/alexisveryreal"><img width="200" src="./logo/akechi.png" alt="Akechi Logo"></a>
+<a href="https://github.com/alexisveryreal"><img width="500" src="./logo/akechi.png" alt="Akechi Logo"></a>
 </p>
 
 <br>
