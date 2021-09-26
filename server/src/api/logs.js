@@ -15,6 +15,7 @@ router.get('/', async (req, res, next) => {
 
 router.post('/', async (req, res, next) => {
   try {
+    console.log(req.body);
     const pancakeEntry = new Pancakes(req.body);
     const createdPancake = await pancakeEntry.save();
     res.json(createdPancake);
