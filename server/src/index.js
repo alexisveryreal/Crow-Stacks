@@ -20,6 +20,8 @@ app.use(cors({
   origin: process.env.CORS_ORIGIN,
 }));
 
+app.use(express.json());
+
 /* ROUTES */
 app.get('/', (req, res) => {
   res.json({
