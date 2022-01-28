@@ -4,6 +4,10 @@
 
 html,
 body {
-  @apply text-white bg-gray-800
+  @apply text-yellow-500 bg-white
 }
 
+.animate-fade-in-down {
+  -webkit-animation: fade-in-down .5s ease-in-out;
+  animation: fade-in-down .5s ease-in-out;
+}
